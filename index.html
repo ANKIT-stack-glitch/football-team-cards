@@ -10,14 +10,16 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <h1 class="title">Team stats</h1>
-  <main>
-    <div class="team-stats">
-      <p>Team: <span id="team">Nepal National Football Team</span></p>
-      <p>Sport: <span id="sport">Football</span></p>
-      <p>Year: <span id="year">2025</span></p>
-      <p>Head coach: <span id="head-coach">Matt Ross</span></p>
-    </div>
+
+    <h1 class="title">Team stats</h1>
+    <main>
+      <div class="team-stats">
+        <p>Team: <span id="team"></span></p>
+        <p>Sport: <span id="sport"></span></p>
+        <p>Year: <span id="year"></span></p>
+        <p>Head coach: <span id="head-coach"></span></p>
+      </div>
+
     <label class="options-label" for="players">Filter Teammates:</label>
     <select name="players" id="players">
       <option value="all">All Players</option>
@@ -28,33 +30,35 @@
       <option value="goalkeeper">Position Goalkeeper</option>
     </select>
     <div class="cards" id="player-cards">
-      <div class="player-card"><h2>Kiran Chemjong</h2><p>Position: Goalkeeper</p><p>Number: 1</p><p>Age: 34</p></div>
-      <div class="player-card"><h2>Deep Karki</h2><p>Position: Goalkeeper</p><p>Number: 22</p><p>Age: 27</p></div>
-      <div class="player-card"><h2>Abhishek Waiba</h2><p>Position: Defender</p><p>Number: 15</p><p>Age: 20</p></div>
-      <div class="player-card"><h2>Ananta Tamang</h2><p>Position: Centre-Back</p><p>Number: 5</p><p>Age: 27</p></div>
-      <div class="player-card"><h2>Chhiring Lama</h2><p>Position: Centre-Back</p><p>Number: 6</p><p>Age: 22</p></div>
-      <div class="player-card"><h2>Bishal Basnet</h2><p>Position: Centre-Back</p><p>Number: 12</p><p>Age: 22</p></div>
-      <div class="player-card"><h2>Abhishek Limbu</h2><p>Position: Centre-Back</p><p>Number: 13</p><p>Age: 25</p></div>
-      <div class="player-card"><h2>Bimal Pandey</h2><p>Position: Centre-Back</p><p>Number: 14</p><p>Age: 21</p></div>
-      <div class="player-card"><h2>Sumit Shrestha</h2><p>Position: Left-Back</p><p>Number: 19</p><p>Age: 21</p></div>
-      <div class="player-card"><h2>Randip Paudel</h2><p>Position: Left-Back</p><p>Number: 25</p><p>Age: 21</p></div>
-      <div class="player-card"><h2>Anjal Maharjan</h2><p>Position: Left-Back</p><p>Number: 26</p><p>Age: 23</p></div>
-      <div class="player-card"><h2>Sanish Shrestha</h2><p>Position: Right-Back</p><p>Number: 20</p><p>Age: 23</p></div>
-      <div class="player-card"><h2>Rohit Chand</h2><p>Position: Defensive Midfield</p><p>Number: 32</p><p>Age: 31</p></div>
-      <div class="player-card"><h2>Arik Bista</h2><p>Position: Defensive Midfield</p><p>Number: 8</p><p>Age: 24</p></div>
-      <div class="player-card"><h2>Mani Kumar Lama</h2><p>Position: Defensive Midfield</p><p>Number: 23</p><p>Age: 28</p></div>
-      <div class="player-card"><h2>Utsav Rai</h2><p>Position: Central Midfield</p><p>Number: 11</p><p>Age: 21</p></div>
-      <div class="player-card"><h2>Aashish Rai</h2><p>Position: Attacking Midfield</p><p>Number: 10</p><p>Age: 26</p></div>
-      <div class="player-card"><h2>Anjan Bista</h2><p>Position: Left Winger</p><p>Number: 9</p><p>Age: 26</p></div>
-      <div class="player-card"><h2>Hitesh Thapaliya</h2><p>Position: Left Winger</p><p>Number: 18</p><p>Age: 26</p></div>
-      <div class="player-card"><h2>Ayush Ghalan</h2><p>Position: Right Winger</p><p>Number: 19</p><p>Age: 22</p></div>
-      <div class="player-card"><h2>Manish Dangi</h2><p>Position: Right Winger</p><p>Number: 28</p><p>Age: 22</p></div>
-      <div class="player-card"><h2>Gillespye Jung Karki</h2><p>Position: Centre-Forward</p><p>Number: 21</p><p>Age: 26</p></div>
-      <div class="player-card"><h2>Rohan Karki</h2><p>Position: Centre-Forward</p><p>Number: 9</p><p>Age: 22</p></div>
-      <div class="player-card"><h2>Bharat Khawas</h2><p>Position: Centre-Forward</p><p>Number: 27</p><p>Age: 33</p></div>
-      <div class="player-card"><h2>Cirjan Dhami</h2><p>Position: Centre-Forward</p><p>Number: 28</p><p>Age: 19</p></div>
+        <div class="player-card"><h2>Kiran Chemjong</h2><p>Nickname: Superman</p><p>Position: Goalkeeper</p><p>Number: 1</p><p>Age: 34</p></div>
+        <div class="player-card"><h2>Deep Karki</h2><p>Nickname: Safe Hands</p><p>Position: Goalkeeper</p><p>Number: 22</p><p>Age: 27</p></div>
+        <div class="player-card"><h2>Abhishek Waiba</h2><p>Nickname: The Wall</p><p>Position: Defender</p><p>Number: 15</p><p>Age: 20</p></div>
+        <div class="player-card"><h2>Ananta Tamang</h2><p>Nickname: Iron Man</p><p>Position: Centre-Back</p><p>Number: 5</p><p>Age: 27</p></div>
+        <div class="player-card"><h2>Chhiring Lama</h2><p>Nickname: The Rock</p><p>Position: Centre-Back</p><p>Number: 6</p><p>Age: 22</p></div>
+        <div class="player-card"><h2>Bishal Basnet</h2><p>Nickname: Speedster</p><p>Position: Centre-Back</p><p>Number: 12</p><p>Age: 22</p></div>
+        <div class="player-card"><h2>Abhishek Limbu</h2><p>Nickname: The Bulldozer</p><p>Position: Centre-Back</p><p>Number: 13</p><p>Age: 25</p></div>
+        <div class="player-card"><h2>Bimal Pandey</h2><p>Nickname: The Guardian</p><p>Position: Centre-Back</p><p>Number: 14</p><p>Age: 21</p></div>
+        <div class="player-card"><h2>Sumit Shrestha</h2><p>Nickname: The Flash</p><p>Position: Left-Back</p><p>Number: 19</p><p>Age: 21</p></div>
+        <div class="player-card"><h2>Randip Paudel</h2><p>Nickname: The Fortress</p><p>Position: Left-Back</p><p>Number: 25</p><p>Age: 21</p></div>
+        <div class="player-card"><h2>Anjal Maharjan</h2><p>Nickname: The Tank</p><p>Position: Left-Back</p><p>Number: 26</p><p>Age: 23</p></div>
+        <div class="player-card"><h2>Sanish Shrestha</h2><p>Nickname: The Roadblock</p><p>Position: Right-Back</p><p>Number: 20</p><p>Age: 23</p></div>
+        <div class="player-card"><h2>Rohit Chand</h2><p>Nickname: Captain Marvel</p><p>Position: Defensive Midfield</p><p>Number: 32</p><p>Age: 31</p></div>
+        <div class="player-card"><h2>Arik Bista</h2><p>Nickname: The Commander</p><p>Position: Defensive Midfield</p><p>Number: 8</p><p>Age: 24</p></div>
+        <div class="player-card"><h2>Mani Kumar Lama</h2><p>Nickname: The Anchor</p><p>Position: Defensive Midfield</p><p>Number: 23</p><p>Age: 28</p></div>
+        <div class="player-card"><h2>Utsav Rai</h2><p>Nickname: Maestro</p><p>Position: Central Midfield</p><p>Number: 11</p><p>Age: 21</p></div>
+        <div class="player-card"><h2>Aashish Rai</h2><p>Nickname: Playmaker</p><p>Position: Attacking Midfield</p><p>Number: 10</p><p>Age: 26</p></div>
+        <div class="player-card"><h2>Anjan Bista</h2><p>Nickname: Golden Boot</p><p>Position: Left Winger</p><p>Number: 9</p><p>Age: 26</p></div>
+        <div class="player-card"><h2>Hitesh Thapaliya</h2><p>Nickname: The Speed Demon</p><p>Position: Left Winger</p><p>Number: 18</p><p>Age: 26</p></div>
+        <div class="player-card"><h2>Ayush Ghalan</h2><p>Nickname: The Eagle</p><p>Position: Right Winger</p><p>Number: 19</p><p>Age: 22</p></div>
+        <div class="player-card"><h2>Manish Dangi</h2><p>Nickname: The Sprinter</p><p>Position: Right Winger</p><p>Number: 28</p><p>Age: 22</p></div>
+        <div class="player-card"><h2>Gillespye Jung Karki</h2><p>Nickname: The Finisher</p><p>Position: Centre-Forward</p><p>Number: 21</p><p>Age: 26</p></div>
+        <div class="player-card"><h2>Rohan Karki</h2><p>Nickname: The Cannon</p><p>Position: Centre-Forward</p><p>Number: 9</p><p>Age: 22</p></div>
+        <div class="player-card"><h2>Bharat Khawas</h2><p>Nickname: The Veteran</p><p>Position: Centre-Forward</p><p>Number: 27</p><p>Age: 33</p></div>
+        <div class="player-card"><h2>Cirjan Dhami</h2><p>Nickname: Young Gun</p><p>Position: Centre-Forward</p><p>Number: 28</p><p>Age: 19</p></div>
+        
     </div>
   </main>
+  
   <footer>&copy; freeCodeCamp</footer>
   <script src="./script.js"></script>
 </body>
