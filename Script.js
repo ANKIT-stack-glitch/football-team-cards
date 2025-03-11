@@ -14,3 +14,5 @@ document.getElementById("head-coach").textContent = teamStats.headCoach;
 
 const playerCards = document.querySelectorAll(".player-card");
 const playerFilter = document.getElementById("players");
+
+playerFilter.addEventListener("change", () => {});
