@@ -18,3 +18,4 @@ const playerFilter = document.getElementById("players");
 playerFilter.addEventListener("change", () => {});
 
 const filterValue = playerFilter.value;
+playerCards.forEach((card) => {});
