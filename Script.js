@@ -31,3 +31,4 @@ if (
 } else {
   card.style.display = "none";
 }
+fix: close event listener function
