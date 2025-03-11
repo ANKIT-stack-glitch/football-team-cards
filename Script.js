@@ -21,3 +21,13 @@ const filterValue = playerFilter.value;
 playerCards.forEach((card) => {});
 const position = card.querySelector("p:nth-of-type(2)").textContent.toLowerCase();
 const nickname = card.querySelector("p:nth-of-type(1)").textContent.toLowerCase();
+
+if (
+  filterValue === "all" ||
+  (filterValue === "nickname" && nickname.includes("nickname")) ||
+  position.includes(filterValue)
+) {
+  card.style.display = "block";
+} else {
+  card.style.display = "none";
+}
