@@ -16,3 +16,5 @@ const playerCards = document.querySelectorAll(".player-card");
 const playerFilter = document.getElementById("players");
 
 playerFilter.addEventListener("change", () => {});
+
+const filterValue = playerFilter.value;
