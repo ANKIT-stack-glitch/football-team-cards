@@ -2,6 +2,7 @@
 
 An interactive web app that showcases player cards from the Nepal National Football Team using modern JavaScript, HTML, and CSS.
 
+## 🎥 [🔗 Live Demo](https://ankit-stack-glitch.github.io/football-team-cards/)
 
 
 ## 📸 Screenshot
