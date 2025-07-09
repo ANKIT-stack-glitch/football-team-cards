@@ -8,6 +8,7 @@ An interactive web app that showcases player cards from the Nepal National Footb
 ## 📸 Screenshot
 
 *(Add a screenshot of your project here later if you want)*
+![image](https://github.com/user-attachments/assets/e22606c6-c031-42a5-b349-ff5e78ba3bd1)
 
 ```html
 <!-- Example -->
